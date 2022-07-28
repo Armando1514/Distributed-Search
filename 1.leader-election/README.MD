@@ -78,7 +78,5 @@ If the notified node doesn't belong to the leader, it simplies close the gap in 
 4. Edit the field "dataDir" in the file "zoo.cfg"  adding the value from the step 2.
 5. Go in the root directory and after in the "bin" one.
 6. Run Zookeeper typing from terminal ```./zkServer.sh start``` if you are on Mac or Linux or use the .cmd.
-7. Run ```./zkCli.sh ``` fromt erminal.
-8. Create the "election" Znode typing in the zkCli: ```create /election ```
 9. Go in the leader-election root java project and type: ```mvn clean package``` 
 10. Open as many terminal as you want (they will be nodes) and go in the target directory that is generated from the previous command and type in each of them: ```java -jar target/leader-election-1.0-SNAPSHOT-jar-with-dependencies.jar```
