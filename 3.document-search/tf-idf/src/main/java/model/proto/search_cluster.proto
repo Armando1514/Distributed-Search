@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "model.proto";
+
+
+message Request {
+    string search_query = 1;
+}
+
+message Response {
+    repeated DocumentStats relevant_documents = 1;
+
+    message DocumentStats {
+        string document_name = 1;
+        optional double score = 2;
+        optional int64 document_size = 3;
+        optional string author = 4;
+    }
+}

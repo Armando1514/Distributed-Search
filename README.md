@@ -1,0 +1,1 @@
+2 . Using the addresses published in the service registry we can establish the communication within the cluster. That is done in the project number 3.

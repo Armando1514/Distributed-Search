@@ -79,4 +79,4 @@ If the notified node doesn't belong to the leader, it simplies close the gap in 
 5. Go in the root directory and after in the "bin" one.
 6. Run Zookeeper typing from terminal ```./zkServer.sh start``` if you are on Mac or Linux or use the .cmd.
 9. Go in the leader-election root java project and type: ```mvn clean package``` 
-10. Open as many terminal as you want (they will be nodes) and go in the target directory that is generated from the previous command and type in each of them: ```java -jar target/leader-election-1.0-SNAPSHOT-jar-with-dependencies.jar```
+10. Open as many terminal as you want (they will be nodes) and from the root of leader-election, type: ```java -jar target/leader-election-1.0-SNAPSHOT-jar-with-dependencies.jar```

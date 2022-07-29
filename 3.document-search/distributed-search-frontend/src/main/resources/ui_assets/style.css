@@ -1,0 +1,63 @@
+body {
+  background: #e6f3ff;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+#layout {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px 20px 50px;
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.2s;
+  margin: 0 auto;
+  width: 750px;
+}
+
+input {
+  height: 25px;
+}
+
+#search_text {
+  width: 300px;
+}
+
+.num_input {
+  width: 50px;
+}
+
+button {
+  background: #0084ff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 14px;
+  font-size: 15px;
+  color: #fff;
+}
+
+#banner-message.alt {
+  background: #0084ff;
+  color: #fff;
+  margin-top: 40px;
+  width: 200px;
+}
+
+#banner-message.alt button {
+  background: #fff;
+  color: #000;
+}
+
+#results {
+  display: none;
+  white-space: pre-wrap;
+}
+
+#no_results_error {
+  display: none;
+}
+
+#results table {
+  margin-left:auto;
+  margin-right:auto;
+}

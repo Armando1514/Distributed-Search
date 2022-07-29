@@ -17,4 +17,4 @@
 5. Go in the root directory and after in the "bin" one.
 6. Run Zookeeper typing from terminal ```./zkServer.sh start``` if you are on Mac or Linux or use the .cmd.
 9. Go in the service-registry-and-discovery root java project and type: ```mvn clean package``` 
-10. Open as many terminal as you want (they will be nodes) and go in the target directory that is generated from the previous command and type in each of them: ```java -jar target/service-registry-and-discovery-1.0-SNAPSHOT-jar-with-dependencies.jar PORT``` (WHERE PORT IS DIFFERENT FOR EACH TIME IS LAUNCH ON A DIFFERENT TERMINAL ON THE SAME MACHINE e.g. 8080).
+10. Open as many terminal as you want (they will be nodes) and from the root of service-registry-and-discovery type: ```java -jar target/service-registry-and-discovery-1.0-SNAPSHOT-jar-with-dependencies.jar PORT``` (WHERE PORT IS DIFFERENT FOR EACH TIME IS LAUNCH ON A DIFFERENT TERMINAL ON THE SAME MACHINE e.g. 8080).
