@@ -129,6 +129,6 @@ SO:
 6. Run Zookeeper typing from terminal ```./zkServer.sh start``` if you are on Mac or Linux or use the .cmd.
 7. Go in the distributed-search-frontend root java project and type: ```mvn clean package``` 
 8. Write in the terminal ```java -jar target/front.end-1.0-SNAPSHOT-jar-with-dependencies.jar```
-9. Go into the tf-idf root java project and type: ```mvn clean package``
+9. Go into the tf-idf root java project and type: ```mvn clean package```
 10. Open as many terminal as you want (they will be nodes, and in this case you need at least 2) and from the tf-idf root type in each of them: ```java -jar target/tf-idf-1.0-SNAPSHOT-jar-with-dependencies.jar PORT``` change PORT with different ports for each terminal.
 11. Go to http://localhost:9000/ and start querying the cluster!
